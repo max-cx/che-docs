@@ -1,4 +1,4 @@
-:_content-type: assembly
+:_content-type: concept
 :description: Advanced Use
 :keywords: advanced-use, advanced-user, advanced-users, user-guide
 :navtitle: Advanced Use
