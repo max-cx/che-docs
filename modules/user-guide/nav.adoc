@@ -3,7 +3,6 @@ pass:[<!-- vale off -->]
 .User Guide
 
 * xref:user-onboarding.adoc[]
-
 ** xref:prod-id-urls.adoc[]
 *** xref:url-of-your-organizations-prod-id-instance.adoc[]
 *** xref:url-of-your-prod-id-dashboard.adoc[]
@@ -17,9 +16,11 @@ pass:[<!-- vale off -->]
 ** xref:proc_uo-deleting-a-workspace.adoc[]
 
 * xref:advanced-use.adoc[]
-** xref:parameters-for-urls-for-starting-a-new-workspace.adoc[]
-*** xref:url-parameter-for-workspace-editor.adoc[]
-*** xref:url-parameter-for-starting-duplicate-workspaces.adoc[URL parameter for starting duplicate workspaces]
+** xref:parameters-for-the-urls-for-starting-a-new-workspace.adoc[]
+*** xref:url-parameter-concatenation.adoc[]
+*** xref:url-parameter-for-workspace-ide.adoc[]
+*** xref:url-parameter-for-starting-duplicate-workspaces.adoc[]
 *** xref:url-parameter-for-devfile-file-name.adoc[]
-*** xref:url-parameter-for-devfile-path.adoc[]
-*** xref:combining-the-url-parameters.adoc[]
+*** xref:url-parameter-for-devfile-file-path.adoc[]
+
+
