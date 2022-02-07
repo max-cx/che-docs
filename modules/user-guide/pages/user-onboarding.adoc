@@ -1,4 +1,4 @@
-:_content-type: assembly
+:_content-type: concept
 :description: User Onboarding
 :keywords: getting-started, user-onboarding, new-user,new-users, user-guide
 :navtitle: User Onboarding
@@ -6,6 +6,8 @@
 
 [id="user-onboarding_{context}"]
 = User Onboarding
+
+//content to be created later. max-cx
 
 //RECOMMEND THE USEFULNESS OF THE DASHBOARD FOR WORKSPACE MANAGEMENT AND HEALTH/STATUS MONITORING?
 
