@@ -14,8 +14,8 @@ The *Workspaces* page of your {prod-short} dashboard is where you manage your wo
 {prod-url}/dashboard/#/workspaces
 ----
 
-include::snip_bookmark-this-url-in-your-browser-for-convenience.adoc[]
+include::partial$snip_bookmark-this-url-in-your-browser-for-convenience.adoc[]
 
 .Additional resources
 
-* xref:url-of-your-organizations-prod-id-instance.adoc[URL of your organization's {prod-short} instance]
+* xref:url-of-your-organizations-che-instance.adoc[]
