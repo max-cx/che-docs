@@ -9,11 +9,5 @@
 
 schemaVersion: 2.1.0
 metadata:
-  generateName: che-docs-
-
-components:
-  - name: che-docs
-    container:
-      image: "quay.io/eclipse/che-docs:latest"
-      memoryLimit: 512M
-      mountSources: true
+  generateName: che-docs
+  version: 2.0.0
