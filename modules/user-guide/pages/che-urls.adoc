@@ -1,15 +1,63 @@
 :_content-type: CONCEPT
 :description: {prod-short} URLs
-:keywords: url, dashboard, {prod-short}, workspace, workspaces, new-workspace, your-workspace
+:keywords: url, dashboard, {prod-short}, workspace, workspaces, new-workspace, your-workspace, manage-workspaces, verify, workspace-status, workspace-state, team, organization, organization-url, url-organization, fqdn, fully-qualified-domain-name, start-new-workspace, start-a-new-workspace, new-workspace, start, workspace-url, workspace-urls, url-of-a-workspace, url-of-workspace
 :navtitle: {prod-short} URLs
 // :page-aliases:
 
 [id="{prod-id-short}-urls_{context}"]
 = {prod-short} URLs
 
-Working with {prod-short} involves regular use of the following URLs:
+Working with {prod-short} involves regular interaction with the following URLs:
 
-* xref:url-of-your-organizations-che-instance.adoc[]
-* xref:url-of-your-che-dashboard.adoc[]
-* xref:urls-for-starting-a-new-workspace.adoc[]
-* xref:urls-of-your-workspaces.adoc[]
+* URL of your organization's {prod-short} instance
+* URL of the *Workspaces* page of your {prod-short} dashboard
+* URLs for starting a new workspace
+* URLs of your workspaces
+
+== URL of your organization's {prod-short} instance
+
+Your {prod-short} administrator must provide you with the URL of your organization's {prod-short} instance that you need as a user to access your {prod-short} dashboard and start and manage your workspaces. This URL is a fully qualified domain name (FQDN):
+
+[source,subs="+quotes,+attributes"]
+----
+{prod-url}
+----
+
+== URL of the *Workspaces* page your {prod-short} dashboard
+
+The *Workspaces* page of your {prod-short} dashboard is where you manage your workspaces and verify their current states. The URL syntax for this page is like so:
+
+[source,subs="+quotes,+attributes"]
+----
+{prod-url}/dashboard/#/workspaces
+----
+
+== URLs for starting a new workspace
+
+For every remote Git repository that you plan to use inside a workspace, you need a URL with the following syntax:
+[source,subs="+quotes,+attributes"]
+----
+{prod-url}#__<git_repository_url>__
+----
+
+Visiting this URL in a browser tab starts a new workspace that contains a clone of that repository.
+
+include::partial$snip_bookmark-these-urls-in-your-browser-for-convenience.adoc[]
+
+.URL syntax for starting a new workspace that contains a clone of a GitHub-hosted repository
+====
+* `pass:c,a,q[{prod-url}#https://github.com/__<user_or_org>__/__<repository>__]` starts a new workspace with a clone of the default branch.
+* `pass:c,a,q[{prod-url}#https://github.com/__<user_or_org>__/__<repository>__/tree/__<branch_name>__]` starts a new workspace with a clone of the specified branch.
+* `pass:c,a,q[{prod-url}#https://github.com/__<user_or_org>__/__<repository>__/pull/__<pull_request_id>__]` starts a new workspace with a clone of the branch of the pull request.
+====
+
+= URLs of your workspaces
+
+When {prod-short} starts a new workspace for you, the workspace has a unique URL that you can visit in a browser tab to open the workspace:
+
+[source,subs="+quotes,+attributes"]
+----
+{prod-url}#__<url_of_your_workspace>__
+----
+
+include::partial$snip_bookmark-these-urls-in-your-browser-for-convenience.adoc[]
