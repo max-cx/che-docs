@@ -1,6 +1,6 @@
 [TIP]
 ====
-Bookmark these URLs in your browser for convenience!
+Bookmarking an intended URL in your browser:
 
 * In Mozilla Firefox, go to *☰* *>* *Bookmarks* *>* *Manage bookmarks Ctrl+Shift+O* *>* *Bookmarks Toolbar* *>* *Organize* *>* *Add bookmark*.
 

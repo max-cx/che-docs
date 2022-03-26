@@ -14,6 +14,8 @@ Working with {prod-short} involves regular interaction with the following URLs:
 * URLs for starting a new workspace
 * URLs of your workspaces
 
+include::partial$snip_bookmark-these-urls-in-your-browser-for-convenience.adoc[]
+
 == URL of your organization's {prod-short} instance
 
 Your {prod-short} administrator must provide you with the URL of your organization's {prod-short} instance that you need as a user to access your {prod-short} dashboard and start and manage your workspaces. This URL is a fully qualified domain name (FQDN):
@@ -42,8 +44,6 @@ For every remote Git repository that you plan to use inside a workspace, you nee
 
 Visiting this URL in a browser tab starts a new workspace that contains a clone of that repository.
 
-include::partial$snip_bookmark-these-urls-in-your-browser-for-convenience.adoc[]
-
 .URL syntax for starting a new workspace that contains a clone of a GitHub-hosted repository
 ====
 * `pass:c,a,q[{prod-url}#https://github.com/__<user_or_org>__/__<repository>__]` starts a new workspace with a clone of the default branch.
@@ -51,7 +51,7 @@ include::partial$snip_bookmark-these-urls-in-your-browser-for-convenience.adoc[]
 * `pass:c,a,q[{prod-url}#https://github.com/__<user_or_org>__/__<repository>__/pull/__<pull_request_id>__]` starts a new workspace with a clone of the branch of the pull request.
 ====
 
-= URLs of your workspaces
+== URLs of your workspaces
 
 When {prod-short} starts a new workspace for you, the workspace has a unique URL that you can visit in a browser tab to open the workspace:
 
@@ -59,5 +59,3 @@ When {prod-short} starts a new workspace for you, the workspace has a unique URL
 ----
 {prod-url}#__<url_of_your_workspace>__
 ----
-
-include::partial$snip_bookmark-these-urls-in-your-browser-for-convenience.adoc[]
