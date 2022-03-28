@@ -3,8 +3,7 @@ pass:[<!-- vale off -->]
 .User Guide
 
 * xref:user-onboarding.adoc[]
-** xref:che-urls.adoc[]
 ** xref:starting-a-new-workspace-with-a-clone-of-a-git-repository.adoc[]
-** xref:parameters-for-the-urls-for-starting-a-new-workspace.adoc[]
+** xref:optional-parameters-for-the-urls-for-starting-a-new-workspace.adoc[]
+** xref:basic-actions-you-can-perform-on-a-workspace.adoc[]
 
-** xref:starting-a-stopped-workspace.adoc[]

@@ -1,8 +1,0 @@
-[TIP]
-====
-Bookmarking an intended URL in your browser:
-
-* In Mozilla Firefox, go to *☰* *>* *Bookmarks* *>* *Manage bookmarks Ctrl+Shift+O* *>* *Bookmarks Toolbar* *>* *Organize* *>* *Add bookmark*.
-
-* In Google Chrome, go to *⋮* *>* *Bookmarks* *>* *Bookmark manager* *>* *Bookmarks bar* *>* *⋮* *>* *Add new bookmark*.
-====
