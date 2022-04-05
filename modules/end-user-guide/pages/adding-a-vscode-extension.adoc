@@ -1,4 +1,4 @@
-:navtitle: Adding a Visual Studio Code Extension
+:navtitle: TEST CHANGE Adding a Visual Studio Code Extension
 :keywords: Visual Studio Code extension, user-guide
 
 [id="adding-visual-studio-code-extension_{context}"]
