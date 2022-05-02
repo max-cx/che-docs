@@ -7,7 +7,9 @@
 
 {prod-short} workspaces and workspace data are ephemeral and are lost when the workspace stops.
 
-To have persistent storage between workspace restarts, specify a {kubernetes} PersistentVolume (PV) for the `{devworkspace}` containers. You can do this by either defining and mounting a volume from the project devfile or using a {kubernetes} PersistentVolumeClaim (PVC) with the necessary labels.
+To preserve the workspace state in persistent storage while the workspace is stopped, request a {kubernetes} PersistentVolume (PV) for the `{devworkspace}` containers in the {prod-short} cluster.
+
+You can request a PV by using the devfile or a {kubernetes} PersistentVolumeClaim (PVC).
 
 An example of a PV is the `/projects/` directory of a workspace, which is mounted by default for non-ephemeral workspaces.
 
@@ -15,7 +17,7 @@ Persistent Volumes come at a cost: attaching a persistent volume slows workspace
 
 [WARNING]
 ====
-Starting another concurrently running workspace with a link:https://kubernetes.io/docs/concepts/storage/persistent-volumes/#access-modes[`ReadWriteOnce` PV] mail fail.
+Starting another, concurrently running workspace with a link:https://kubernetes.io/docs/concepts/storage/persistent-volumes/#access-modes[`ReadWriteOnce` PV] may fail.
 ====
 
 .Additional resources
@@ -23,7 +25,7 @@ Starting another concurrently running workspace with a link:https://kubernetes.i
 * link:https://docs.openshift.com/container-platform/latest/storage/understanding-persistent-storage.html[Red Hat OpenShift Documentation: Understanding persistent storage]
 * link:https://kubernetes.io/docs/concepts/storage/persistent-volumes/[Kubernetes Documentation: Persistent Volumes]
 
-== Specifying persistant storage in a devfile
+== Requesting persistent storage in a devfile
 
 When a workspace requires its own persistent storage, request a PersistentVolume (PV) in the devfile, and {prod-short} will automatically manage the necessary PersistentVolumeClaims.
 
@@ -84,7 +86,7 @@ components:
 
 ====
 
-== Specifying persistant storage with a PVC
+== Requesting persistent storage with a PVC
 
 You may opt to apply a PersistentVolumeClaim (PVC) to request a PersistentVolume (PV) for your workspaces in the following cases:
 
