@@ -7,7 +7,7 @@
 
 {prod-short} workspaces and workspace data are ephemeral and are lost when the workspace stops.
 
-To preserve the workspace state in persistent storage while the workspace is stopped, request a {kubernetes} PersistentVolume (PV) for the `{devworkspace}` containers in the {prod-short} cluster.
+To preserve the workspace state in persistent storage while the workspace is stopped, request a {kubernetes} PersistentVolume (PV) for the `{devworkspace}` containers in the {orch-name} cluster of your organization's {prod-short} instance.
 
 You can request a PV by using the devfile or a {kubernetes} PersistentVolumeClaim (PVC).
 
@@ -29,6 +29,10 @@ Starting another, concurrently running workspace with a link:https://kubernetes.
 
 When a workspace requires its own persistent storage, request a PersistentVolume (PV) in the devfile, and {prod-short} will automatically manage the necessary PersistentVolumeClaims.
 
+.Prerequisites
+
+* You have not started the workspace.
+
 .Procedure
 
 . Add a `volume` component in the devfile:
@@ -40,7 +44,7 @@ components:
   ...
   - name: __<chosen_volume_name>__
     volume:
-      size: __<desired_volume_size>__G
+      size: __<requested_volume_size>__G
   ...
 ----
 
@@ -86,7 +90,7 @@ components:
 
 ====
 
-== Requesting persistent storage with a PVC
+== Requesting persistent storage in a PVC
 
 You may opt to apply a PersistentVolumeClaim (PVC) to request a PersistentVolume (PV) for your workspaces in the following cases:
 
@@ -94,10 +98,11 @@ You may opt to apply a PersistentVolumeClaim (PVC) to request a PersistentVolume
 * The PV lifecycle goes beyond the lifecycle of a single workspace.
 * The data included in the PV are shared across workspaces.
 
-PVCs are applied to the `{devworkspace}` containers even if the workspace is ephemeral because of the `controller.devfile.io/storage-type: ephemeral` attribute in the devfile.
+TIP: You can apply a PVC to the `{devworkspace}` containers even if the workspace is ephemeral and its devfile contains the `controller.devfile.io/storage-type: ephemeral` attribute.
 
 .Prerequisites
 
+* You have not started the workspace.
 * You have GUI or CLI access to the {orch-name} cluster of your organization's {prod-short} instance.
 * For CLI users: The `{orch-cli}` command-line tool is installed in the operating system you are using.
 * A PVC is created in your user {orch-namespace} to mount to all `{devworkspace}` containers.
