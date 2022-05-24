@@ -58,3 +58,4 @@ chmod +x ./1-prepare.sh ./2-migrate.sh ./3-subscribe.sh ./4-wait.sh
 
 * Open {prod-short} dashboard and log in.
 
+include::examples/snip_{project-context}-name-of-checluster-cr-remains-the-same-after-upgrade.adoc[]
