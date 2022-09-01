@@ -50,6 +50,7 @@ asciidoc:
     link-understanding-custom-resources: "link:https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/[Kubernetes - Understanding Custom Resources]"
     namespace: namespace # In context: API namespace
     ocp: OpenShift&#160;Container&#160;Platform
+    olm-namespace: openshift-operators
     ocp4-ver: "4.10"
     orch-cli-link: link:https://kubernetes.io/docs/reference/kubectl/overview/[Overview of kubectl]
     orch-cli: kubectl
