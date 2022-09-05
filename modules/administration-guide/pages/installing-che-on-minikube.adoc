@@ -11,7 +11,7 @@ This article explains how to create a single-node {kubernetes} cluster with Mini
 
 WARNING: Remember that single-node {kubernetes} clusters are suited only for testing or development. Do *NOT* use such clusters to run {prod-short} for organizations or developer teams.
 
-IMPORTANT: The operator namespace for {prod-short} when installed on Minikube is `eclipse-che`, not `{operator-namespace}`!
+IMPORTANT: On Minikube, the Operator namespace is `eclipse-che`, not `{olm-namespace}`!
 
 .Prerequisites
 
