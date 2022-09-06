@@ -37,11 +37,12 @@ NOTE: The `DevWorkspaceOperatorConfig` and `DevWorkspaceRouting` CRDs  have the 
 
 . Remove the {devworkspace} Operator subscription:
 +
+[subs="+attributes"]
 ----
 $ oc delete sub devworkspace-operator \
--n openshift-operators <1>
+-n {olm-namespace} # <1>
 ----
-<1> `openshift-operators` or an OpenShift {orch-namespace} where the {devworkspace} Operator is installed.
+<1> `{olm-namespace}` or an OpenShift {orch-namespace} where the {devworkspace} Operator is installed.
 
 . Get the {devworkspace} Operator CSVs in the __<devworkspace-operator.vX.Y.Z>__ format:
 +
@@ -51,12 +52,12 @@ $ oc get csv | grep devworkspace
 
 . Remove each {devworkspace} Operator CSV:
 +
-[subs="+quotes"]
+[subs="+quotes,attributes"]
 ----
 $ oc delete csv __<devworkspace-operator.vX.Y.Z>__ \
--n openshift-operators <1>
+-n {olm-namespace} # <1>
 ----
-<1> `openshift-operators` or an OpenShift {orch-namespace} where the {devworkspace} Operator is installed.
+<1> `{olm-namespace}` or an OpenShift {orch-namespace} where the {devworkspace} Operator is installed.
 
 . Re-create the {devworkspace} Operator subscription:
 +
@@ -67,13 +68,13 @@ apiVersion: operators.coreos.com/v1alpha1
 kind: Subscription
 metadata:
   name: devworkspace-operator
-  namespace: openshift-operators
+  namespace: {olm-namespace}
 spec:
   channel: fast
   name: devworkspace-operator
   source: redhat-operators
   sourceNamespace: openshift-marketplace
-  installPlanApproval: Automatic <1>
+  installPlanApproval: Automatic # <1>
   startingCSV: devworkspace-operator.v{devworkspace-operator-version-patch}
 EOF
 ----
