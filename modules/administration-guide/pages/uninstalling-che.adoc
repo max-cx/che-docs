@@ -11,7 +11,7 @@
 
 WARNING: Uninstalling {prod-short} removes all {prod-short}-related user data!
 
-To uninstall an instance of {prod} {prod-ver}:
+You can unstall an instance of {prod} on a command line.
 
 .Prerequisites
 
@@ -21,7 +21,7 @@ To uninstall an instance of {prod} {prod-ver}:
 
 .Procedure
 
-. Obtain the name of the {prod-short} {orch-namespace} (default: `{prod-namespace}`):
+. Get the namespace for the next step:
 +
 [subs="+attributes,quotes"]
 ----
@@ -29,11 +29,11 @@ $ {orch-cli} get checluster --all-namespaces \
   -o=jsonpath="{.items[*].metadata.namespace}"
 ----
 
-. Remove the {prod-short} instance from the __<{prod-namespace}>__  {orch-namespace}:
+. Remove the {prod-short} instance from the namespace:
 +
 [subs="+attributes,quotes"]
 ----
-$ {prod-cli} server:delete -n __<{prod-namespace}>__
+$ {prod-cli} server:delete -n __<namespace>__
 ----
 
 include::example$snip_{project-context}-note-uninstalling-in-minikube-cluster.adoc[]
