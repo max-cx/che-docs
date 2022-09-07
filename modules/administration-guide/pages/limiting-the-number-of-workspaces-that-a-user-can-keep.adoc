@@ -23,7 +23,7 @@ spec:
 
 .Procedure
 
-. Get the namespace for the next step:
+. Get the {orch-namespace} for the next step:
 +
 [source,terminal,subs="+quotes,attributes"]
 ----
@@ -35,11 +35,11 @@ $ {orch-cli} get checluster --all-namespaces \
 +
 [source,subs="+quotes,attributes"]
 ----
-$ {orch-cli} patch checluster/{prod-checluster} -n _<namespace>_ \ # <1>
+$ {orch-cli} patch checluster/{prod-checluster} -n _<{orch-namespace}>_ \ # <1>
 --type='merge' -p \
 '{"spec":{"components":{"cheServer":{"extraProperties":{"CHE_LIMITS_USER_WORKSPACES_COUNT": "__<kept_workspaces_limit>__"}}}}}' # <2>
 ----
-<1> The namespace that you got in step 1.
+<1> The {orch-namespace} that you got in step 1.
 <2> Your choice of the `__<kept_workspaces_limit>__` value.
 
 
