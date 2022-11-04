@@ -20,6 +20,7 @@ NOTE: The workspace IDE might be already set for a remote Git repository in the 
 
 .The URL parameter `__<editor_key>__` values for supported IDEs 
 
+[cols="1,1a,1a"]
 |===
 | IDE | `__<editor_key>__` value | Note
 

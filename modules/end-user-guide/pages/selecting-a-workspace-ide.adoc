@@ -16,6 +16,7 @@ You can select another supported in-browser IDE by either method:
 
 .Supported in-browser IDEs 
 
+[cols="1,1a,1a"]
 |===
 | IDE | `id` | Note
 
