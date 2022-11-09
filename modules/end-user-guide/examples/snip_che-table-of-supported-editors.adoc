@@ -20,4 +20,4 @@
 
 | link:https://github.com/eclipse-che/che-theia[Eclipse Theia]
 | `eclipse/che-theia/latest`
-| *Deprecated and will be removed in a future release.*
+| Stable and planned for deprecation and removal in future releases.
