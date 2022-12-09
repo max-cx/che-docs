@@ -10,7 +10,7 @@
 If you can't add configuration files to your source code repository, configure your workspace devfile to enable Microsoft Visual Studio Code to automatically install workspace recommended extensions.
 
 .Prerequisites
-* You can't add configuration files to your source code repository. xref:maintaining-a-microsoft-visual-studio-code-extension-list.adoc[] is not possible.
+* You can't add configuration files to your source code repository. xref:selecting-vs-code-extensions.adoc[] is not possible.
 
 * {prod-short} has access to the link:https://www.open-vsx.org/[OpenVSX registry].
 +

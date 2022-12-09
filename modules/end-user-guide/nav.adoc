@@ -21,7 +21,7 @@
 * xref:selecting-an-in-browser-ide-for-one-new-workspace.adoc[]
 * xref:maintaining-consistent-workspace-ide-configuration.adoc[]
 ** xref:maintaining-an-editorconfig-file.adoc[]
-** xref:maintaining-a-microsoft-visual-studio-code-extension-list.adoc[]
+** xref:selecting-vs-code-extensions.adoc[]
 ** xref:selecting-an-in-browser-ide-for-all-workspaces-that-clone-the-same-git-repository.adoc[]
 ** xref:maintaining-a-microsoft-visual-studio-code-extension-list-in-the-devfile.adoc[]
 * xref:using-credentials-and-configurations-in-workspaces.adoc[]
