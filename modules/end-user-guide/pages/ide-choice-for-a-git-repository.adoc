@@ -1,11 +1,11 @@
 :_content-type: PROCEDURE
-:navtitle: Selecting the in-browser IDE
-:description: Selecting an in-browser IDE for all workspaces that clone the same Git repository
+:navtitle: IDE choice for a Git repository
+:description: IDE choice for a Git repository
 :keywords: select-IDE, che-editor, che-editor-yaml
 :page-aliases: specifying-an-in-browser-ide-for-a-git-repository-by-using-che-editor.yaml.adoc
 
-[id="selecting-an-in-browser-ide-for-all-workspaces-that-clone-the-same-git-repository"]
-= Selecting an in-browser IDE for all workspaces that clone the same Git repository
+[id="ide-choice-for-a-git-repository"]
+= IDE choice for a Git repository
 
 include::partial$proc_setting-up-che-editor-yaml.adoc[leveloffset=+1]
 

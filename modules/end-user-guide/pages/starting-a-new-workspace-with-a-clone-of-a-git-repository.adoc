@@ -67,14 +67,20 @@ With GitHub and GitLab, you can even use the URL of a specific branch of the rep
 * `pass:c,a,q[{prod-url}#https://github.com/__<user_or_org>__/__<repository>__/tree/__<branch_name>__]` starts a new workspace with a clone of the specified branch.
 * `pass:c,a,q[{prod-url}#https://github.com/__<user_or_org>__/__<repository>__/pull/__<pull_request_id>__]` starts a new workspace with a clone of the branch of the pull request.
 ====
+
+.Verification
+
+. After you enter the URL to start a new workspace in a browser tab, it renders the workspace-starting page.
 +
-After you enter the URL to start a new workspace in a browser tab, it renders the workspace-starting page.
+NOTE: The workspace has a unique URL: `pass:c,a,q[{prod-url}]#workspace__<unique_url>__`.
+
+. When the new workspace is ready, the workspace IDE loads in the browser tab.
 +
-When the new workspace is ready, the workspace IDE loads in the browser tab.
+The default in-browser IDE in a new workspace is Microsoft Visual Studio Code - Open Source.
 +
-A clone of the Git repository is present in the filesystem of the new workspace.
-+
-The workspace has a unique URL: `pass:c,a,q[{prod-url}]#workspace__<unique_url>__`.
+NOTE: Because the {prod-short} build of Microsoft Visual Studio Code - Open Source supports custom branding, your organization might be using a branded build.
+
+. A clone of the remote Git repository is present in the filesystem of the new workspace.
 
 [TIP]
 ====

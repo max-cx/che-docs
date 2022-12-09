@@ -16,6 +16,8 @@ The URL parameter for specifying another supported IDE is `che-editor=__<editor_
 pass:c,a,q[{prod-url}]#__<git_repository_url>__?che-editor=__<editor_key>__
 ----
 
+This URL parameter enables a user to start a workspace with a clone of the same project repository and the personal choice of the in-browser IDE.
+
 NOTE: The workspace IDE might be already set for a remote Git repository in the xref:selecting-an-in-browser-ide-for-all-workspaces-that-clone-the-same-git-repository.adoc[`che-editor.yaml` file of the repository].
 
 .The URL parameter `__<editor_key>__` values for supported IDEs 

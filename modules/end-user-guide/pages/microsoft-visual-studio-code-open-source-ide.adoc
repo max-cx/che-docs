@@ -1,0 +1,13 @@
+:_content-type: CONCEPT
+:description: Microsoft Visual Studio Code - Open Source IDE
+:keywords: user-guide, selecting, IDE, select, selecting, editor, ide, vs-code, visual-studio, visual-studio-code, jetbrains, intellij, pycharm, theia, che-theia
+:navtitle: Microsoft Visual Studio Code - Open Source
+:page-aliases:
+
+[id="microsoft-visual-studio-code-open-source-ide"]
+= Microsoft Visual Studio Code - Open Source IDE
+
+Microsoft Visual Studio Code - Open Source is the default in-browser IDE in a new workspace.
+
+NOTE: Because the {prod-short} build of Microsoft Visual Studio Code - Open Source supports custom branding, your organization might be using a branded build.
+

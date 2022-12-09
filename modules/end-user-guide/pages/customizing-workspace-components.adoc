@@ -14,6 +14,6 @@ To customize workspace components:
 
 * xref:devfile-introduction.adoc[Use a devfile]
 
-* xref:maintaining-consistent-workspace-ide-configuration.adoc[].
+* xref:workspace-ides.adoc[Configure your IDE choice].
 
 * Add {prod-short} specific attributes in addition to the generic devfile specification.
