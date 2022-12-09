@@ -72,7 +72,7 @@ With GitHub and GitLab, you can even use the URL of a specific branch of the rep
 
 . After you enter the URL to start a new workspace in a browser tab, it renders the workspace-starting page.
 +
-NOTE: The workspace has a unique URL: `pass:c,a,q[{prod-url}]#workspace__<unique_url>__`.
+NOTE: Each workspace has a unique URL: `pass:c,a,q[{prod-url}]#workspace__<unique_url>__`.
 
 . When the new workspace is ready, the workspace IDE loads in the browser tab.
 +

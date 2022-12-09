@@ -7,7 +7,7 @@
 [id="vs-code-extensions"]
 = pass:[<!-- vale RedHat.TermsErrors = NO -->] pass:[<!-- vale RedHat.CaseSensitiveTerms = NO -->] VS Code extensions
 
-To enable the loaded Microsoft Visual Studio Code - Open Source in a workspace to automatically install selected extensions, you have to add an `extensions.json` file into the remote Git repository that will be cloned into workspaces.
+To enable the loaded Microsoft Visual Studio Code - Open Source in a workspace to automatically install selected extensions, you have to add an `extensions.json` file into the remote Git repository that contains your project source code and that will be cloned into workspaces.
 
 .Prerequisites
 * {prod-short} has access to the link:https://www.open-vsx.org/[OpenVSX registry].
@@ -18,7 +18,7 @@ To install recommended extensions in a restricted environment, consider these op
 
 * xref:administration-guide:configuring-the-open-vsx-registry-url.adoc[] to point to your OpenVSX registry.
 
-* xref:selecting-an-in-browser-ide-for-all-workspaces-that-clone-the-same-git-repository.adoc[].
+* xref:defining-a-common-ide.adoc[].
 
 * link:https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix[Installing extensions from VSX files].
 ====
