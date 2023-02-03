@@ -7,7 +7,7 @@
 [id="microsoft-visual-studio-code-open-source-ide"]
 = Microsoft Visual Studio Code - Open Source IDE
 
-Microsoft Visual Studio Code - Open Source is the default in-browser IDE in a new workspace.
+Microsoft Visual Studio Code - Open Source is the default cloud IDE in a new workspace.
 
 NOTE: Because the {prod-short} build of Microsoft Visual Studio Code - Open Source supports custom branding, your organization might be using a branded build.
 

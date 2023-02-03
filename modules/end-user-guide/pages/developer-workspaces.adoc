@@ -18,11 +18,11 @@ Pods manage each component of a {prod-short} workspace.
 Therefore, everything running in a {prod-short} workspace is running inside containers.
 This makes a {prod-short} workspace highly portable.
 
-The embedded browser-based IDE is the point of access for everything running in a {prod-short} workspace.
+The embedded cloud IDE is the point of access for everything running in a {prod-short} workspace.
 
 == Microsoft Visual Studio Code - Open Source
 
-Microsoft Visual Studio Code - Open Source is the default browser-based IDE.
+Microsoft Visual Studio Code - Open Source is the default cloud IDE.
 
 {prod-short} adds these extensions:
 
