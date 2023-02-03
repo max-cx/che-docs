@@ -21,7 +21,7 @@
 * xref:cloud-ides-in-workspaces.adoc[]
 ** xref:defining-a-common-ide.adoc[]
 ** xref:microsoft-visual-studio-code-open-source-ide.adoc[]
-*** xref:vs-code-extensions.adoc[]
+*** xref:adding-vs-code-extensions.adoc[]
 * xref:using-credentials-and-configurations-in-workspaces.adoc[]
 ** xref:using-git-credentials.adoc[]
 ** xref:enabling-artifact-repositories-in-a-restricted-environment.adoc[]

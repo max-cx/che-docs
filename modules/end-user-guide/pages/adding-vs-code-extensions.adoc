@@ -1,11 +1,11 @@
 :_content-type: PROCEDURE
-:navtitle: `VS Code` extensions
-:description: Visual Studio Code extensions
-:keywords: Visual Studio Code extension, user-guide
+:navtitle: Adding `VS Code` extensions
+:description: Adding Visual Studio Code extensions
+:keywords: add-extension, VS-code-extension, vs-code
 :page-aliases: adding-a-vscode-extension.adoc
 
-[id="vs-code-extensions"]
-= pass:[<!-- vale RedHat.TermsErrors = NO -->] pass:[<!-- vale RedHat.CaseSensitiveTerms = NO -->] VS Code extensions
+[id="adding-vs-code-extensions"]
+Adding `VS Code` extensions
 
 To enable the loaded Microsoft Visual Studio Code - Open Source in a workspace to automatically install selected extensions, you have to add an `extensions.json` file into the remote Git repository that contains your project source code and that will be cloned into workspaces.
 
