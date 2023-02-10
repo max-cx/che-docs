@@ -1,8 +1,3 @@
-:_content-type: PROCEDURE
-:navtitle: Adding `VS Code` extensions
-:description: Adding Visual Studio Code extensions
-:keywords: add-extension, VS-code-extension, vs-code
-:page-aliases: adding-a-vscode-extension.adoc
 
 [id="adding-vs-code-extensions"]
 Adding `VS Code` extensions
