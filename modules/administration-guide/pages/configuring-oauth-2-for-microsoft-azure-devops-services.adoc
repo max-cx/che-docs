@@ -9,7 +9,7 @@
 
 pass:[<!-- vale RedHat.Spelling = NO -->]
 
-To enable users to work with a remote Git repository that is hosted on Microsoft Azure Repos:
+You can enable users to work with a remote Git repository that is hosted on Microsoft Azure Repos:
 
 pass:[<!-- vale RedHat.Spelling = YES -->]
 

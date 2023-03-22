@@ -7,7 +7,7 @@
 [id="configuring-oauth-1-for-a-bitbucket-server"]
 = Configuring OAuth 1.0 for a Bitbucket Server
 
-To enable users to work with a remote Git repository that is hosted on a Bitbucket Server:
+You can enable users to work with a remote Git repository that is hosted on a Bitbucket Server:
 
 . Set up an application link (OAuth 1.0) on the Bitbucket Server.
 . Apply an application link Secret for the Bitbucket Server.

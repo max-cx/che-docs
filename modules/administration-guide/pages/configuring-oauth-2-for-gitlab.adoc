@@ -7,7 +7,7 @@
 [id="configuring-oauth-2-for-gitlab"]
 = Configuring OAuth 2.0 for GitLab
 
-To enable users to work with a remote Git repository that is hosted using a GitLab instance:
+You can enable users to work with a remote Git repository that is hosted using a GitLab instance:
 
 . Set up the GitLab authorized application (OAuth 2.0).
 . Apply the GitLab authorized application Secret.
